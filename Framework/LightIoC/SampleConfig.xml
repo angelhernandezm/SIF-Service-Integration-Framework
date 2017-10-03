@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LightIoC xmlns="http://schemas.aussiepay.com.au/2013/LightIoC">
+	<Pre-Jitting enabled="true"/>
+	<registrations>
+		<register name="IDispatchMessageInspector" />
+		<register name="ITestLib" type="WebAPI.Core.Interfaces.ITestLib" assemblyFQN="WebAPI.Core.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23e52edaf0ea7bd4"  />
+		<register name="IWebApiLogger" type="WebAPI.Core.Interfaces.IWebApiLogger" assemblyFQN="WebAPI.Core.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23e52edaf0ea7bd4"  />
+		<register name="IWebApiPerfCounter" type="WebAPI.Core.Interfaces.IWebApiLogger" assemblyFQN="WebAPI.Core.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23e52edaf0ea7bd4"  />
+	</registrations>
+	<mappings>
+		<map abstraction="IWebApiLogger" to="DefaultLogger" instanceRequired="true" />
+		<map abstraction="IWebApiPerfCounter" to="WebApiPerfCounter" instanceRequired="true" />
+		<map abstraction="IDispatchMessageInspector" to="MessageInspector" instanceRequired="true" />
+		<map abstraction="ITestLib" to="ThisIsADestroyableClass" instanceRequired="true" lifeSpan="300" />
+	</mappings>
+</LightIoC>

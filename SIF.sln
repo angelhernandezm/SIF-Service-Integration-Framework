@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Server", "Application Server", "{87BF7719-6919-41D3-AD8D-D2774C471BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Service", "Windows Service", "{A51AB283-75C2-4E83-90E3-8478099F8C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{34DDEF03-2C4E-46A8-B858-2AFE092F3E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linux Daemon", "Linux Daemon", "{D42DB0DD-CF86-4191-95C6-4186513B810E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Server", "Web Server", "{7D427C32-A4EE-4D32-A324-D6DB5397A50B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellaneous", "{0876CF94-59AA-48CC-A182-9C14FBA8CC8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pohgee.Framework.LightIoC", "Framework\LightIoC\Pohgee.Framework.LightIoC.csproj", "{21664CE0-01CD-404A-910E-C6221AA7E2C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pohgee.SIF.DesktopAgent", "Windows Service\Desktop Agent\Pohgee.SIF.DesktopAgent.csproj", "{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pohgee.SIF.DesktopAgent.Abstractions", "Windows Service\Abstractions\Pohgee.SIF.DesktopAgent.Abstractions\Pohgee.SIF.DesktopAgent.Abstractions.csproj", "{52045E94-2E34-420C-A328-E9FA6BD57C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pohgee.SIF.DesktopAgent.Core", "Windows Service\Core\Pohgee.SIF.DesktopAgent.Core\Pohgee.SIF.DesktopAgent.Core.csproj", "{9287CD79-9854-42EF-98F0-3792D6B49F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pohgee.SIF.Desktop.DesktopAgent.Shell", "Windows Service\Shell\Pohgee.SIF.Desktop.DesktopAgent.Shell\Pohgee.SIF.Desktop.DesktopAgent.Shell.csproj", "{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Debug|x86.ActiveCfg = Debug|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Debug|x86.Build.0 = Debug|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Release|Any CPU.ActiveCfg = Release|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Release|x86.ActiveCfg = Release|x86
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11}.Release|x86.Build.0 = Release|x86
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{52045E94-2E34-420C-A328-E9FA6BD57C60}.Release|x86.ActiveCfg = Release|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Debug|x86.Build.0 = Debug|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|x86.ActiveCfg = Release|Any CPU
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21664CE0-01CD-404A-910E-C6221AA7E2C2} = {34DDEF03-2C4E-46A8-B858-2AFE092F3E52}
+		{7B8DB4BF-FCC6-4EE0-AFE1-4774DFAB0E11} = {A51AB283-75C2-4E83-90E3-8478099F8C7D}
+		{52045E94-2E34-420C-A328-E9FA6BD57C60} = {A51AB283-75C2-4E83-90E3-8478099F8C7D}
+		{9287CD79-9854-42EF-98F0-3792D6B49F9F} = {A51AB283-75C2-4E83-90E3-8478099F8C7D}
+		{2315B4BE-4989-4FB5-AA55-D1C5AFEB4295} = {A51AB283-75C2-4E83-90E3-8478099F8C7D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://angeljesus14.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Framework\\LightIoC\\Pohgee.Framework.LightIoC.csproj
+		SccProjectTopLevelParentUniqueName1 = SIF.sln
+		SccProjectName1 = Framework/LightIoC
+		SccLocalPath1 = Framework\\LightIoC
+		SccProjectUniqueName2 = Windows\u0020Service\\Desktop\u0020Agent\\Pohgee.SIF.DesktopAgent.csproj
+		SccProjectTopLevelParentUniqueName2 = SIF.sln
+		SccProjectName2 = Windows\u0020Service/Desktop\u0020Agent
+		SccLocalPath2 = Windows\u0020Service\\Desktop\u0020Agent
+		SccProjectUniqueName3 = Windows\u0020Service\\Abstractions\\Pohgee.SIF.DesktopAgent.Abstractions\\Pohgee.SIF.DesktopAgent.Abstractions.csproj
+		SccProjectTopLevelParentUniqueName3 = SIF.sln
+		SccProjectName3 = Windows\u0020Service/Abstractions/Pohgee.SIF.DesktopAgent.Abstractions
+		SccLocalPath3 = Windows\u0020Service\\Abstractions\\Pohgee.SIF.DesktopAgent.Abstractions
+		SccProjectUniqueName4 = Windows\u0020Service\\Core\\Pohgee.SIF.DesktopAgent.Core\\Pohgee.SIF.DesktopAgent.Core.csproj
+		SccProjectTopLevelParentUniqueName4 = SIF.sln
+		SccProjectName4 = Windows\u0020Service/Core/Pohgee.SIF.DesktopAgent.Core
+		SccLocalPath4 = Windows\u0020Service\\Core\\Pohgee.SIF.DesktopAgent.Core
+		SccProjectUniqueName5 = Windows\u0020Service\\Shell\\Pohgee.SIF.Desktop.DesktopAgent.Shell\\Pohgee.SIF.Desktop.DesktopAgent.Shell.csproj
+		SccProjectTopLevelParentUniqueName5 = SIF.sln
+		SccProjectName5 = Windows\u0020Service/Shell/Pohgee.SIF.Desktop.DesktopAgent.Shell
+		SccLocalPath5 = Windows\u0020Service\\Shell\\Pohgee.SIF.Desktop.DesktopAgent.Shell
+	EndGlobalSection
+EndGlobal

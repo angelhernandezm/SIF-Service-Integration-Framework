@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BankFileTransfer>
+	<Processing interval="120" />
+	<Source directory="" filter="*.*" monitorChildFolders="true" />
+	<Target directory="" filter="*.*" monitorChildFolders="true" />
+	<Working directory="" filter="*.*" />
+	<QValentIntegration directory="" isEnabled="true" />
+</BankFileTransfer>
